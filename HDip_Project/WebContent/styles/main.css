@@ -1,0 +1,37 @@
+
+@charset "ISO-8859-1";
+body {
+    background-color: #808080;
+    height: 1000px;
+    margin: 2em auto;
+    width: 70%;
+}
+header {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    height: 10%;
+    width: 100%;
+}
+section {
+    background-color: #00FFFF;
+    border: 1px solid #000000;
+    height: 80%;
+    width: 100%;
+}
+footer {
+	width: 100%;
+    background-color: #FFFFEE;
+    border: 1px solid #000000;
+    height: 10%;
+    padding-left: 1em;
+}
+#sign_up {
+    border: 1px solid #000000;
+    float: right;
+    margin: 0 2em;
+    padding: 3.5em;
+}
+#log_in {
+    float: right;
+    margin: 0.3em ;
+}
