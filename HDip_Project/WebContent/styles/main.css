@@ -38,21 +38,21 @@ footer {
     margin: 0.3em;
 }
 #sign_up input {
-    margin: 1.2em;
+    margin: 1.2em .05em;
 }
 #latest_news {
-    border-left: 1px dashed black;
-    float: left;
-    width: 25%;
-    height: 100%;
-    box-shadow: 5px 2px 5px gray;
+    border-left: 1px dashed #000000;
     border-radius: 5px;
+    box-shadow: 5px 2px 5px #808080;
+    float: left;
+    height: 100%;
     margin-right: 2em;
+    width: 25%;
 }
 #tab_about {
     height: 88%;
 }
 #latest_news li {
-    list-style: none;
     line-height: 5.2em;
+    list-style: none outside none;
 }
