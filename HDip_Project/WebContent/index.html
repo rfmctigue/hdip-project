@@ -19,29 +19,35 @@
 	<ul id="top_bar">
 		<li><a href="#tab_sign_up">Welcome! Sign up and get started!</a></li>
 		<li><a href="#tab_about">Who we are</a></li>
-		<li id="log_in"><label for="user"> &nbsp;Your Email: </label><input type="text" name="user" id="user" size="10" value="" />
-		<label for="pass"> &nbsp;Password: </label><input type="password" name="pass" id="pass" size="10" value="" />
+		<li id="log_in"><input placeholder="Email" type="text" name="user" id="user" value="" />
+		<input placeholder="Password" type="password" name="pass" id="pass" value="" />
 		<input type="submit" value="Log In" id="log_in_btn"/></li>
 	</ul>
 	<div id="tab_sign_up">
-		<p>Welcome to Mind Your Weight, the online weight tracking and analysis tool.</p>
 			<form id="sign_up">
-				<label for="contact_name"> &nbsp;Your Name: </label> <br />
-				<input type="text" name="name" id="contact_name" size="30" value="" /> <br />
-				<label for="username">&nbsp;E-mail address: </label> <br /> 
-				<input type="text" id="username" size="30" value="" /> <br />
-				<label for="password">&nbsp;Password: </label> <br /> 
-				<input type="password" id="password" size="30" value="" /> <br />
-				<label for="password">&nbsp;Confirm Password: </label> <br /> 
-				<input type="password" id="password" size="30" value="" /> <br />
+				<input placeholder="Your Name:" type="text" name="name" id="contact_name" size="30" value="" /> <br />
+				<input placeholder="E-mail address:" type="text" id="username" size="30" value="" /> <br />
+				<input placeholder="Password:" type="password" id="password" size="30" value="" /> <br />
+				<input placeholder="Confirm Password: " type="password" id="password" size="30" value="" /> <br />
 				<br />
 				<input type="submit" value="Submit" id="query"/>
 			</form>
 		
+		<p>Welcome to Mind Your Weight, the online weight tracking and analysis tool.</p>
 		<p>Sign up now and start tracking your weight. Whether you want to loose a few pounds, 
 		add a few more or simply maintain your current weight, Mind Your Weight is here to help.</p>
+		
 	</div>
 	<div id="tab_about">
+		<div id="latest_news">
+			<ul>
+				<li>News item 1</li>
+				<li>News item 2</li>
+				<li>News item 3</li>
+				<li>News item 4</li>
+				<li>News item 5</li>
+			</ul>
+		</div>
 		<p>Some content about the site in the other tab</p>
 	</div>
 </section>
